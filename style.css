@@ -169,6 +169,13 @@ img {
     color:var(--main-text-color);
     background: var(--color-info);
 }
+.button-info:hover,
+.button-info-blury:hover {
+    background: var(--main-text-color);
+    color: var(--color-info);
+    border: 1px solid var(--color-info);
+    transition: all 0.5s;
+}
 .button-info-blury{
     background: var(--color-info-blury);
     color: var(--color-info);
@@ -178,6 +185,11 @@ img {
     background: var(--main-text-color);
     color: var(--color-info);
 
+}
+.button-info-revert:hover {
+    color:var(--main-text-color);
+    background: var(--color-info);
+    transition: all 0.5s;
 }
 .button-shadow {
     box-shadow:  1px 1px 1px 1px grey;
@@ -201,15 +213,28 @@ i{
     background: var(--color-main-attention-blury);
     color: var(--color-main-attention);
 }
+.button-attention:hover,
+.button-attention-blury:hover {
+    background: var(--main-text-color);
+    color: var(--color-main-attention);
+    border: 1px solid var(--color-main-attention);
+    transition: all 0.5s;
 
+
+}
 .button-attention-revert {
     background: var(--main-text-color);
     color: var(--color-main-attention);
 }
+.button-attention-revert:hover {
+    color: var(--main-text-color);
+
+    background: var(--color-main-attention);
+    transition: all 0.5s;
+}
 
 
-
-/*button success*/
+    /*button success*/
 .button-success {
     color: var(--main-text-color);
     border: var(--color-success);
@@ -220,12 +245,27 @@ i{
     background:var(--color-success-blury);
 
 }
+.button-success:hover,
+.button-success-blury:hover{
+    background: var(--main-text-color);
+    color: var(--color-success);
+    border: 1px solid var(--color-success);
+    transition: all 0.5s;
+
+}
 .button-success-revert{
     background: var(--main-text-color);
     color: var(--color-success);
 
 }
 
+.button-success-revert:hover{
+    color: var(--main-text-color);
+    /*border: var(--color-success);*/
+    background: var(--color-success);
+    transition: all 0.5s;
+
+}
 /*button light*/
 .button-light {
     color: var(--main-text-color);
@@ -237,10 +277,23 @@ i{
     background:var(--color-light-blury);
 
 }
+.button-light:hover,
+.button-light-blury:hover {
+    background: var(--main-text-color);
+    color: var(--color-light);
+    transition: all 0.5s;
+    border: 1px solid var(--color-light);
+}
 .button-light-revert{
     background: var(--main-text-color);
     color: var(--color-light);
 
+}
+.button-light-revert:hover{
+    color: var(--main-text-color);
+    border: var(--color-light);
+    background: var(--color-light);
+    transition: all 0.5s;
 }
 .button-bordered-light {
     border-radius: var(--border-radius-main);
@@ -252,6 +305,11 @@ i{
 .icon {
     color: var(--color-info);
 }
+/*.icon:hover {*/
+    /*color: var(--main-text-color);*/
+    /*transition: all 0.5s;*/
+/*}*/
+
 .icon-colored {
     color: var(--icon-colored);
 }
@@ -267,3 +325,5 @@ i{
     height: 50px;
     width: 50px;
 }
+
+
